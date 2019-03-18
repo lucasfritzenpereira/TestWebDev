@@ -1,0 +1,107 @@
+.form-group {
+    padding: 5px;
+}
+
+.att {
+    margin-top: 36%;  
+    box-shadow: 3px 3px #196b2c;  
+}
+.sav {
+    box-shadow: 3px 3px #0a3a6d;
+    margin-top: 46%;
+}
+.btn {
+    font-weight: bold;
+    font-family: 'Margarine', cursive;
+}
+label {
+    font-weight: bold;
+    font-family: 'Margarine', cursive;
+}
+.btn-info {
+    box-shadow: 3px 3px #0d6674;
+}
+.btn-danger {
+    box-shadow: 3px 3px #771b24;
+}
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.7s ease-in; 
+}
+
+
+.btn:active {
+    transform: scale(0.95);
+    transition: 0.6s ease-in;
+}
+.btn-info{
+    margin-right: 5%;
+}
+td,tr {
+    font-family: 'Margarine', cursive;
+}
+
+p,
+.titulo {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Margarine', cursive;
+    margin-top: 1em;   
+    
+}
+.titulo {
+    text-shadow: 2px 2px var(--info);
+}
+.titulo:hover {
+    cursor: pointer;
+    transform: scale(1.1) rotate(-2deg);
+    transition: 1s;
+}
+
+body {
+    background-color: var(--light);
+}
+.heart {
+    height: 32px;
+    width: 32px;
+    transition: 0.6s ease-out;
+}
+.heart:hover {
+    transform: scale(1.2);
+    transition: 0.6s ease-in;
+}
+.str1 {
+    color:var(--info);
+}
+.str2 {
+    color:var(--danger);
+}
+.str3 {
+    color: var(--primary);
+}
+.str4 {
+    color: var(--success);
+}
+.form-group {
+    background: var(--gray);
+    border-radius: 5px;
+    box-shadow: 3px 3px var(--dark);
+    margin-left: 5px;
+}
+.butao {
+        background-color: var(--light);
+        box-shadow: 3px 3px var(--light);
+        
+}
+
+.tdnome {
+    font-weight: bold;
+    color: var(--gray-dark) ;   
+}
+
+@media (max-width:767px) {
+    .btn-info{
+        margin-bottom: 5%;
+    }
+}
